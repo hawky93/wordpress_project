@@ -1,0 +1,63 @@
+0000.044 () Opened log file at time: Tue, 20 Jan 2015 17:47:14 +0000 on http://localhost/herbalife
+0000.050 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.5.3 (Windows NT CHARITHA 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) i586) MySQL: 5.6.11 Server: Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 12.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.050 () Free space on disk containing Updraft's temporary directory: 24869.4 Mb
+0000.050 () Restore job started. Entities to restore: plugins, uploads, db
+0000.085 () Entity: db
+0000.085 () restore_backup(backup_file=backup_2015-01-20-1734_Herbalife_5e7caa983e15-db.gz, type=db, info=a:0:{}, last_one=)
+0000.085 () Unpacking backup...
+0000.093 () Database successfully unpacked
+0000.094 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.095 () Using direct MySQL access; value of use_mysqli is: 1
+0000.097 () Max packet size: 32 Mb
+0000.097 () Entering maintenance mode
+0000.097 () Enabling Maintenance mode&#8230;
+0000.100 () Backup created by: 1.9.46
+0000.100 () <strong>Backup of:</strong> http://localhost/herbalife
+0000.100 () Content URL: http://localhost/herbalife/wp-content
+0000.100 () Old table prefix: herb_
+0000.100 () Site information: multisite=0
+0000.103 () New table prefix: herb_
+0000.160 () Restoring table (InnoDB): herb_options
+0000.636 () Restoring table (InnoDB): herb_users
+0000.767 () Restoring table (InnoDB): herb_usermeta
+0001.090 () Restoring table (InnoDB): herb_commentmeta
+0001.456 () Restoring table (InnoDB): herb_comments
+0001.717 () Restoring table (InnoDB): herb_links
+0002.129 () Restoring table (InnoDB): herb_postmeta
+0002.665 () Restoring table (InnoDB): herb_posts
+0002.792 () Restoring table (InnoDB): herb_term_relationships
+0002.947 () Restoring table (InnoDB): herb_term_taxonomy
+0003.063 () Restoring table (InnoDB): herb_terms
+0003.134 () Restoring table (InnoDB): herb_woocommerce_order_itemmeta
+0003.254 () Restoring table (InnoDB): herb_woocommerce_termmeta
+0003.319 () Restoring table (InnoDB): herb_hnb_ipg
+0003.414 () Restoring table (MyISAM): herb_pieregister_code
+0003.425 () Restoring table (InnoDB): herb_sampath_ipg
+0003.535 () Restoring table (InnoDB): herb_woocommerce_attribute_taxonomies
+0003.666 () Restoring table (InnoDB): herb_woocommerce_downloadable_product_permissions
+0003.772 () Database queries processed: 50 in 3.68 seconds
+0003.775 () Restoring table (InnoDB): herb_woocommerce_order_items
+0003.932 () Restoring table (InnoDB): herb_woocommerce_tax_rate_locations
+0004.096 () Restoring table (InnoDB): herb_woocommerce_tax_rates
+0004.356 () Leaving maintenance mode
+0004.356 () Disabling Maintenance mode&#8230;
+0004.356 () Finished: lines processed: 59 in 4.26 seconds
+0004.357 () Cleaning up rubbish...
+0004.524 () Entity: plugins
+0004.524 () restore_backup(backup_file=backup_2015-01-20-1734_Herbalife_5e7caa983e15-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\herbalife/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0004.525 () Unpacking backup... (backup_2015-01-20-1734_Herbalife_5e7caa983e15-plugins.zip, 6.7 Mb)
+0021.331 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.332 () Moving old data: can potentially use wp_filesystem method / -old
+0021.332 () Moving old data out of the way...
+0024.624 () Moving unpacked backup into place...
+0025.621 () Cleaning up rubbish...
+0025.623 () Entity: uploads
+0025.623 () restore_backup(backup_file=backup_2015-01-20-1734_Herbalife_5e7caa983e15-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\herbalife/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0025.623 () Unpacking backup... (backup_2015-01-20-1734_Herbalife_5e7caa983e15-uploads.zip, 0 Mb)
+0025.659 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.660 () Moving old data: can potentially use wp_filesystem method / -old
+0025.660 () Moving old data out of the way...
+0025.715 () Moving unpacked backup into place...
+0025.741 () Cleaning up rubbish...
+0025.760 () Restore successful!
+0025.760 () Restore successful
